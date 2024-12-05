@@ -18,10 +18,10 @@ const ActorQuoteContainer = ({
     >
       <img src={`./Assets/${image}`} alt={actor} className="img" />
       <div>
-        <h4>Actor: {actor}</h4>
-        <p>Movie: {title}</p>
+        <h4>{actor}</h4>
+        <p>{title}</p>
         <p>
-          Quote: <strong>{quote}</strong>
+          <strong>{quote}</strong>
         </p>
       </div>
     </article>
